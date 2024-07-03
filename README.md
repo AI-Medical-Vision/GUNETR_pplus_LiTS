@@ -33,9 +33,8 @@ pip install -r requirements.txt
   
 ---
 # Dataset
-In paper we teseted `LiTS`, `3Dircadb`, and `Sliver07`.  
-We just provided `LiTS` test-set.  
-
+In paper, we teseted `LiTS`, `3Dircadb`, and `Sliver07`.  
+  
 ## Dataset format
 ```
 GUNETR_pplus_LiTS
@@ -79,7 +78,7 @@ GUNETR_pplus_LiTS
 │                   ├── model_best.model
 │                   └── model_best.model.pkl
 ```
-Model-chekcpoint: [link](#).
+Best-model-chekcpoint: [link](https://drive.google.com/drive/folders/11H3IcizvI180RIrgDSNW7VlFGXL39H7k?usp=drive_link).  
   
 ---
 # Implementation
@@ -113,10 +112,11 @@ We implemented all of metric classes.
 | Zhu et al. | 0.9688 | 0.9422 | 0.0578 | **0.0039** | 1.09 | --- | 16.08 | 
 | Chen et al. | 0.9727 | --- | 0.0531 | 1.0800 | 1.31 | 3.05 | --- | 
 | **Ours (G-UNTER++)** | **0.9737** | **0.9490** | **0.0511** | 0.0201 | **0.64** | **1.17** | **12.75** | 
+  
 ---
 # References
 [UNETR++](https://arxiv.org/abs/2212.04497)  
-
+  
 ---
 # Citation
 ```bibtex
