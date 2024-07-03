@@ -35,7 +35,7 @@ We just provided `LiTS` test-set.
 
 ## Dataset format
 ```
-data
+GUNETR_pplus_LiTS
 ├── DATASET_Synapse                  
 │   ├── unetr_pp_raw
 │       ├── unetr_pp_raw_data           
