@@ -35,13 +35,31 @@ We just provided `LiTS` test-set.
 
 ## Dataset format
 ```
-file format
+data
+├── DATASET_Synapse                  
+│   ├── unetr_pp_raw
+│       ├── unetr_pp_raw_data           
+│       ├── Task02_Synapse           
+│           ├── Task002_Synapse         
+│               ├── seg_gt
+│                   ├── 3Dircadb
+│                   ├── LiTS
+│                       ├── segmentation-3.nii
+│                       ├── segmentation-5.nii
+│                       ├── ...
+│                       └── segmentation-127.nii
+│                   ├── Sliver07
+│               ├── unetr_pp_Data_plans_v2.1_stage1
+│                   ├── 3Dircadb
+│                   ├── LiTS
+│                       ├── volume-3.nii
+│                       ├── volume-5.nii
+│                       ├── ...
+│                       └── volume-127.nii
+│                   ├── Sliver07
+│               └── unetr_pp_Plansv2.1_plans_3D.pkl
 ```
-
-## LiTS
-1. 
-
-## Others
+LiTS-test: [20 cases](#).  
 3Dircadb link: [20 cases](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/).  
 Sliver07 link: [20 cases](https://sliver07.grand-challenge.org/).
   
@@ -59,11 +77,12 @@ $> cd ./evaluation_scripts
 $> sh run_evaluation_synapse.sh
 ```
 You select the options, `LiTS`, `3Dircadb`, and `Sliver`.  
-
+  
 3. Calculation metrics
-Please see our [jupyter notebook](#).
+Please see our [jupyter notebook](#).  
 We implemented all of metric classes.  
-
+> You can control post-processing option through `flag_post = True`.
+  
 ---
 # Result
 ## LiTS
@@ -76,7 +95,6 @@ We implemented all of metric classes.
 | Zhu et al. | 0.9688 | 0.9422 | 0.0578 | **0.0039** | 1.09 | --- | 16.08 | 
 | Chen et al. | 0.9727 | --- | 0.0531 | 1.0800 | 1.31 | 3.05 | --- | 
 | **Ours (G-UNTER++)** | **0.9737** | **0.9490** | **0.0511** | 0.0201 | **0.64** | **1.17** | **12.75** | 
-
 ---
 # References
 [UNETR++](https://arxiv.org/abs/2212.04497)  
