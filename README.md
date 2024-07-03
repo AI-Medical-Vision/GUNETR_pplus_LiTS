@@ -42,29 +42,44 @@ GUNETR_pplus_LiTS
 ├── DATASET_Synapse                  
 │   ├── unetr_pp_raw
 │       ├── unetr_pp_raw_data           
-│       ├── Task02_Synapse           
-│           ├── Task002_Synapse         
-│               ├── seg_gt
-│                   ├── 3Dircadb
-│                   ├── LiTS
-│                       ├── segmentation-3.nii
-│                       ├── segmentation-5.nii
-│                       ├── ...
-│                       └── segmentation-127.nii
-│                   ├── Sliver07
-│               ├── unetr_pp_Data_plans_v2.1_stage1
-│                   ├── 3Dircadb
-│                   ├── LiTS
-│                       ├── volume-3.nii
-│                       ├── volume-5.nii
-│                       ├── ...
-│                       └── volume-127.nii
-│                   ├── Sliver07
-│               └── unetr_pp_Plansv2.1_plans_3D.pkl
+│           ├── Task02_Synapse           
+│               ├── Task002_Synapse         
+│                   ├── seg_gt
+│                       ├── 3Dircadb
+│                       ├── LiTS
+│                           ├── segmentation-3.nii
+│                           ├── segmentation-5.nii
+│                           ├── ...
+│                           └── segmentation-127.nii
+│                       ├── Sliver07
+│                   ├── unetr_pp_Data_plans_v2.1_stage1
+│                       ├── 3Dircadb
+│                       ├── LiTS
+│                           ├── volume-3.nii
+│                           ├── volume-5.nii
+│                           ├── ...
+│                           └── volume-127.nii
+│                       ├── Sliver07
+│                   └── unetr_pp_Plansv2.1_plans_3D.pkl
 ```
-LiTS-test: [20 cases](#).  
+LiTS dataset: [131 cases](https://github.com/Auggen21/LITS-Challenge?tab=readme-ov-file).  
 3Dircadb link: [20 cases](https://www.ircad.fr/research/data-sets/liver-segmentation-3d-ircadb-01/).  
 Sliver07 link: [20 cases](https://sliver07.grand-challenge.org/).
+> Our LiTS-testset number is `3, 5, 15, 18, 28, 33, 37, 42, 47, 54, 62, 70, 73, 80, 90, 100, 105, 110, 121, and 127`.  
+  
+## Model Checkpoint
+```
+GUNETR_pplus_LiTS
+├── output_synapse                 
+│   ├── 3d_fullres
+│       ├── Task002_Synapse                   
+│           ├── unetr_pp_trainer_synapse__unetr_pp_Plansv2.1        
+│               ├── fold_4
+│                   ├── validation_raw
+│                   ├── model_best.model
+│                   └── model_best.model.pkl
+```
+Model-chekcpoint: [link](#).
   
 ---
 # Implementation
