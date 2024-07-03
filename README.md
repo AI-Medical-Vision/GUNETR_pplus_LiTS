@@ -96,7 +96,7 @@ $> sh run_evaluation_synapse.sh
 You select the options, `LiTS`, `3Dircadb`, and `Sliver`.  
   
 3. Calculation metrics
-Please see our [jupyter notebook](#).  
+Please see our [jupyter notebook](https://github.com/AI-Medical-Vision/GUNETR_pplus_LiTS/blob/main/LiTS_metric.ipynb).  
 We implemented all of metric classes.  
 > You can control post-processing option through `flag_post = True`.
   
