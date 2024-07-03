@@ -1,7 +1,10 @@
 # G-UNETR++: Whole liver segmentation
-![model](./images/model.png)
-**🔥G-UNETR++: A gradient-enhanced network for accurate and robust liver segmentation from CT images**  
-Paper: [G-UNETR++](#)  
+---
+![model](./images/model.png)  
+  
+**🔥G-UNETR++: A gradient-enhanced network for accurate and robust liver segmentation from CT images**   
+Paper: [G-UNETR++](#)
+  
 ---
 # Requirements
 Our code is based on [UNETR++](https://github.com/Amshaker/unetr_plus_plus) code.  
