@@ -1,8 +1,8 @@
-# G-UNETR++: Whole liver segmentation
+# G-UNETR++: A Gradient-Enhanced Network for Accurate and Robust Liver Segmentation from CT images
 ---
 ![model](./images/model.png)  
   
-**🔥G-UNETR++: A gradient-enhanced network for accurate and robust liver segmentation from CT images**   
+**🔥G-UNETR++: A Gradient-Enhanced Network for Accurate and Robust Liver Segmentation from CT images**   
 Paper: [G-UNETR++](#)
   
 ---
